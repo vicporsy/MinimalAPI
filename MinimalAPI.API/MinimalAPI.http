@@ -1,0 +1,18 @@
+@MinimalAPI_HostAddress = http://localhost:5187
+
+GET {{MinimalAPI_HostAddress}}/client/GetById/21
+Accept: application/json
+
+###
+
+POST {{MinimalAPI_HostAddress}}/client/PostClient
+Accept: application/json
+Content-Type : application/json
+
+{
+  "name": "Victor",
+  "Document": "46496702845",
+  "Email": "vicporsy@gmail.com",
+  "Telefone": "11999999999"
+}
+###
